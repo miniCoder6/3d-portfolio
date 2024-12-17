@@ -1,0 +1,81 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.test1{
+  position:relative;
+  z-index: 100;
+  border:2px solid black;
+  background-color: aliceblue;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  display:flex;
+  font-size: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+
+}
+
+.tooltip{
+  background-color :rgba(45,132,260,0.4);
+
+  color: orange;
+  width:300px;
+  padding: 10px;
+  position: relative;
+  transform: translateY(-10px);
+  opacity: 0;
+  transition-duration: 0.2s;
+  transition-property: opacity,transform;
+  border-radius:10%;
+}
+.tooltip1{
+  background-color:rgba(2, 195, 154,0.5);
+  color: whitesmoke;
+  border-radius: 5%;
+
+}
+
+.tooltip2{
+  width: 300px;
+
+}
+
+.hello{
+  background-color :rgba(45,132,260,0.4);
+
+  color: orange;
+  width:300px;
+  padding: 10px;
+  position: relative;
+  transform: translateY(-10px);
+  opacity: 0;
+  transition-duration: 0.2s;
+  transition-property: opacity,transform;
+  border-radius:10%;
+  
+}
+
+.hey{
+  opacity: 1;
+  transform: translateY(0px);
+
+}
+
+
+.hide{
+  opacity: 0;
+  transform:  translateY(-10px);
+
+}
+
+.show{
+  opacity: 1;
+  transform: translateY(0px);
+}
